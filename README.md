@@ -2,7 +2,7 @@
 Customer churn means when customers stop using a company’s service. It’s important for businesses to know which customers might leave so they can try to keep them.This project uses customer data and feedback to predict churn. It also checks the feelings (sentiment) in the feedback using a tool called TextBlob. Then, it uses machine learning and deep learning to make #predictions. This helps companies understand their customers better and reduce churn.
 
 
-# Features
+# 🚀 Features
 - 🧠 Sentiment Extraction using TextBlob
 - 📈 Numeric Features like tenure, monthlycharges, totalcharges
 - 👴 Demographic Feature: seniorcitizen
@@ -11,7 +11,7 @@ Customer churn means when customers stop using a company’s service. It’s imp
 - 📊 Feature Scaling with StandardScaler
 
 
-# Project Workflow
+# 📌 Project Workflow
 - 📥 Data Loading:
 Load churn dataset from CSV file.
 - 🧹 Data Preprocessing:
