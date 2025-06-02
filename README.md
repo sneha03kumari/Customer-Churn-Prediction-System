@@ -11,29 +11,29 @@ Customer churn means when customers stop using a company’s service. It’s imp
 
 # Project Workflow
 - 📥 Data Loading
-Load churn dataset from CSV file.
+-- Load churn dataset from CSV file.
 - 🧹 Data Preprocessing
-Clean column names
-Fill missing values
-Add dummy feedback if customerfeedback column is missing
+-- Clean column names
+-- Fill missing values
+-- Add dummy feedback if customerfeedback column is missing
 - 🧠 Sentiment Analysis
-Extract sentiment score from feedback using TextBlob
+-- Extract sentiment score from feedback using TextBlob
 - 🗂 Feature Engineering
-Drop original text column
-One-hot encode categorical features
-Normalize numeric values
+-- Drop original text column
+-- One-hot encode categorical features
+-- Normalize numeric values
 - 📊 Split Dataset
-Train-Test split using train_test_split (80% train, 20% test)
+-- Train-Test split using train_test_split (80% train, 20% test)
 - 📏 Feature Scaling
-Standardize features using StandardScaler
+-- Standardize features using StandardScaler
 - 📈 Model Training
-Logistic Regression (baseline model)
-Deep Learning (using TensorFlow and Keras)
+-- Logistic Regression (baseline model)
+-- Deep Learning (using TensorFlow and Keras)
 - 📉 Model Evaluation
-Accuracy, Classification Report, Confusion Matrix
-Training/Validation Accuracy and Loss Plots
+-- Accuracy, Classification Report, Confusion Matrix
+-- Training/Validation Accuracy and Loss Plots
 - 📈 Optional Visualizations
-Confusion matrix heatmap, training curves
+-- Confusion matrix heatmap, training curves
 
 ## 🧠 Models Used
 
