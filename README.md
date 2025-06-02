@@ -11,7 +11,7 @@ Customer churn means when customers stop using a company’s service. It’s imp
 
 # Project Workflow
 - 📥 Data Loading
--- Load churn dataset from CSV file.
+  -Load churn dataset from CSV file.
 - 🧹 Data Preprocessing
 -- Clean column names
 -- Fill missing values
