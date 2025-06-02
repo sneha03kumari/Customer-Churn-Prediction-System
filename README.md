@@ -44,8 +44,4 @@ Confusion matrix heatmap, training curves
 | Sentiment Analysis Tool | TextBlob for extracting polarity score from customer feedback |
 
 
-# Models Used
-Model Type	Details
-Logistic Regression	Simple, interpretable baseline model
-Deep Learning (Neural Network)	3-layer feed-forward model with dropout and ReLU activations
-Sentiment Analysis Tool	TextBlob for extracting polarity score from customer feedback
+
