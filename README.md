@@ -42,12 +42,12 @@ Confusion matrix heatmap, training curves
 If using Google Colab, run these in a cell:
 
 ```bash
-  # Install TextBlob
-  !pip install -q textblob
+# Install TextBlob
+!pip install -q textblob
 
-  # Download required NLTK corpora for TextBlob
-  import nltk
-  nltk.download('punkt')
+# Download required NLTK corpora for TextBlob
+import nltk
+nltk.download('punkt')
 ```
 If running locally, install dependencies:
 
