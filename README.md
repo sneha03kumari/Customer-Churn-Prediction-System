@@ -1,6 +1,7 @@
 # Customer Churn Prediction
 Customer churn means when customers stop using a company’s service. It’s important for businesses to know which customers might leave so they can try to keep them.This project uses customer data and feedback to predict churn. It also checks the feelings (sentiment) in the feedback using a tool called TextBlob. Then, it uses machine learning and deep learning to make #predictions. This helps companies understand their customers better and reduce churn.
 
+
 # Features
 - 🧠 Sentiment Extraction using TextBlob
 - 📈 Numeric Features like tenure, monthlycharges, totalcharges
@@ -8,6 +9,7 @@ Customer churn means when customers stop using a company’s service. It’s imp
 - 🏷️ Categorical Features: gender, partner, contract, internetservice, etc.
 - 🧩 One-Hot Encoding for categorical variables
 - 📊 Feature Scaling with StandardScaler
+
 
 # Project Workflow
 - 📥 Data Loading:
@@ -29,16 +31,16 @@ Accuracy, Classification Report, Confusion Matrix, Training/Validation Accuracy 
 - 📈 Optional Visualizations:
 Confusion matrix heatmap, training curves
 
-## 🧠 Models Used
 
+## 🧠 Models Used
 | Model Type             | Details                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | Logistic Regression  | Simple, interpretable baseline model |
 | Deep Learning (Neural Network) | 3-layer feed-forward model with dropout and ReLU activations |
 | Sentiment Analysis Tool | TextBlob for extracting polarity score from customer feedback |
 
-## ⚙️ Installation Steps
 
+## ⚙️ Installation Steps
 If using Google Colab, run these in a cell:
 
 ```bash
@@ -55,4 +57,3 @@ If running locally, install dependencies:
 pip install pandas numpy matplotlib scikit-learn textblob tensorflow
 python -m textblob.download_corpora
 ```
-
